@@ -67,6 +67,19 @@ footer {
   color: darkslateblue;
 }
 
+.fal {
+  font-size: 25px;
+}
+
+
+.fas {
+  font-size: 25px;
+}
+
+.far {
+  font-size: 25px;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
