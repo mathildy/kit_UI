@@ -6,14 +6,54 @@
     </title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
-
   </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="navbar.html">Navbar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="footer.html">Footer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Form</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="banner.html">Banner</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="card.html">Card</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="comment.html">Comment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="event.html">Event</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="element.html">Element</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="creation.html">Creation (payment)</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
 
 <body>
-
-<h4>1. Les atomes</h4>
 <br>
- <h5>A/ Les bouttons</h5>
+<br>
+
+<h4>Les atomes</h4>
+<br>
+ <h5>1/ Les bouttons</h5>
   <button type="button" class="btn btn-primary">Primary</button>
   <button type="button" class="btn btn-secondary">Secondary</button>
   <button type="button" class="btn btn-success">Success</button>
@@ -95,7 +135,7 @@
 <br>
 <br>
 
-<h5>B/ La typographie</h5>
+<h5>2/ La typographie</h5>
   <div class="row justify-content-right">
     <div class="col-md-3">
       <h1>Heading 1</h1>
@@ -131,7 +171,7 @@
 </div>
 <br>
 
-<h5>C/ Les alertes</h5>
+<h5>3/ Les alertes</h5>
 <div class="alert alert-dismissible alert-warning">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <h4 class="alert-heading">Warning!</h4>
@@ -152,11 +192,32 @@
   </div>
 </div>
 <br>
-
-
-
 <br>
-<h5>D/ Les icones</h5>
+<br>
+
+<h5>4/ Les badges</h5>
+
+  <span class="badge badge-primary">Primary</span>
+  <span class="badge badge-secondary">Secondary</span>
+  <span class="badge badge-success">Success</span>
+  <span class="badge badge-danger">Danger</span>
+  <span class="badge badge-warning">Warning</span>
+  <span class="badge badge-info">Info</span>
+  <span class="badge badge-light">Light</span>
+  <span class="badge badge-dark">Dark</span>
+<br>
+  <span class="badge badge-pill badge-primary">Primary</span>
+  <span class="badge badge-pill badge-secondary">Secondary</span>
+  <span class="badge badge-pill badge-success">Success</span>
+  <span class="badge badge-pill badge-danger">Danger</span>
+  <span class="badge badge-pill badge-warning">Warning</span>
+  <span class="badge badge-pill badge-info">Info</span>
+  <span class="badge badge-pill badge-light">Light</span>
+  <span class="badge badge-pill badge-dark">Dark</span>
+  <br>
+  <br>
+
+<h5>5/ Les icones</h5>
 <br>
   <i class="fas fa-calendar-week"></i>
   <i class="fas fa-glass-cheers"></i>
@@ -174,18 +235,44 @@
 <br>
 <br>
 <br>
-    <h4>2. Les pages</h4>
-      <ul>
-        <li><a href="navbar.html">Navbar</a></li>
-        <li><a href="footer.html">Footer</a></li>
-        <li><a href="form.html">Form</a></li>
-        <li><a href="banner.html">Banner</a></li>
-        <li><a href="card.html">Card</a></li>
-        <li><a href="comment.html">Comment</a></li>
-        <li><a href="event.html">Event</a></li>
-        <li><a href="element.html">Element</a></li>
-        <li><a href="creation.html">Creation (organism)</a></li>
-       </ul>
+<fieldset>
+    <h5>6/ Les checkboxes</h5>
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+        <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" disabled="">
+        <label class="custom-control-label" for="customRadio3">Disabled custom radio</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+        <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck2" disabled="">
+        <label class="custom-control-label" for="customCheck2">Disabled custom checkbox</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+        <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" disabled="" id="customSwitch2">
+        <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+      </div>
+    </div>
+    </div>
+  </fieldset>
 
 </body>
 
